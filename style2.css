@@ -1,0 +1,91 @@
+body {
+    background: linear-gradient(135deg, palevioletred, rgb(238, 1, 131));
+    font-family: 'Press Start 2P', cursive;
+    text-align: justify;    
+    word-spacing: 0px;
+    
+}
+h2{
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+.container {
+    position: relative;
+    
+    z-index: 1;
+}
+.card {
+    position: relative;
+    z-index: 1;
+    background: #ffffffcc;
+    max-width: 1000px;
+    margin: 50px auto 50px auto;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    animation: fadeIn 0.5s forwards;
+}
+table {
+    border: 2px solid rgba(37, 143, 43, 0.85);
+    background: linear-gradient(120deg, palevioletred, rgb(247, 39, 108));
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 12px;
+}
+td, th, tr {
+    border: 1px solid rgb(230, 211, 217);
+    padding: 10px;
+    
+}
+.gambar-1 {
+    animation: rotateHelm 3s linear infinite;
+    max-width: 100px;
+    height: auto;
+}
+span {
+    color:  rgba(37, 143, 43, 0.85);
+}
+.butt-on {
+    display: inline-block;
+    background-color: rgba(37, 143, 43, 0.85);
+    color: white;
+    text-decoration: none; 
+    padding: 10px 20px;
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.butt-on:hover {
+    background-color: rgb(200, 100, 140);
+}
+.tombol {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    gap: 15px;                
+    margin-top: 20px;
+}
+.judul {
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  gap: 15px;                
+  margin-top: 20px;
+}
+.judul h1 {
+  font-size: 80px;
+  color: rgba(37, 143, 43, 0.85);
+  margin: 0; 
+  font-family: 'Press Start 2P', cursive;
+}
+.pink {
+    color: palevioletred;
+}
+@keyframes rotateHelm {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
